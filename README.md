@@ -9,9 +9,10 @@ This solution includes:
 
 ## ✅ Prerequisites
 
-- Visual Studio 2022 or later (with **.NET 8 SDK** and **ASP.NET & web development** workload)
-- Docker Desktop (optional, for containerization)
-- Git (for cloning and pushing to GitHub)
+- Visual Studio 2022+ with .NET 8 SDK
+- Docker Desktop (optional)
+- Git + GitHub (for CI/CD)
+- Kubernetes CLI (optional: `kubectl`, Minikube)
 
 ---
 
@@ -21,69 +22,37 @@ This solution includes:
 CustomerApp/
 │
 ├── CustomerApi/           # Main ASP.NET Core Web API
-│   ├── Controllers/
-│   ├── Models/
-│   ├── Data/
-│   ├── Program.cs
-│   └── Dockerfile
-│
 ├── CustomerCli/           # Console app that calls the API
-│   └── Program.cs
-│
 ├── CustomerApi.Tests/     # xUnit integration tests
-│
-├── k8s/                   # Kubernetes deployment YAML
-│   └── deployment.yaml
-│
-├── .github/workflows/     # GitHub Actions CI pipeline
-│   └── ci.yml
-│
+├── k8s/                   # Kubernetes manifests
+├── .github/workflows/     # GitHub Actions CI/CD
 └── CustomerApp.sln  # Visual Studio Solution
 ```
 
 ---
 
-## 🚀 Running the Application in Visual Studio
+## 🚀 Running in Visual Studio
 
-### 🔹 Step 1: Open the Solution
-- Open `CustomerApp.sln` in Visual Studio.
-
-### 🔹 Step 2: Set Multiple Startup Projects
-1. Right-click the **solution** → Select **Set Startup Projects...**
-2. Choose `Multiple startup projects`
-3. Set both:
-   - `CustomerApi` → `Start`
-   - `CustomerCli` → `Start`
-4. Click **OK**
-
-### 🔹 Step 3: Configure Web API URL
-1. Right-click `CustomerApi` → **Properties**
-2. Go to the **Debug** tab
-3. Ensure **App URL** is set to:
-   ```
-   http://localhost:8080
-   ```
-4. Also verify in `launchSettings.json`:
-   ```json
-   "applicationUrl": "http://localhost:8080"
-   ```
-
-### 🔹 Step 4: Run the Solution
-- Press **F5** or click **Start**
-- API will start on `http://localhost:8080`
-- Swagger opens automatically in browser
-- CLI output appears in Console
+1. Open `CustomerApp.sln`
+2. Right-click solution → **Set Startup Projects...**
+3. Choose **Multiple Startup Projects**:
+   - `CustomerApi` → Start
+   - `CustomerCli` → Start
+4. Press **F5** or click **Start**
 
 ---
 
 ## 🧪 Running Tests
 
-1. Right-click `CustomerApi.Tests` → Run Tests
-2. Or open Test Explorer → Run All Tests
+- In Visual Studio: Open **Test Explorer** → Run All Tests
+- Or from CLI:
+```bash
+dotnet test CustomerApi.Tests
+```
 
 ---
 
-## 🐳 Docker (Optional)
+## 🐳 Docker Commands
 
 ```bash
 docker build -t customer-api ./CustomerApi
@@ -92,20 +61,64 @@ docker run -p 8080:80 customer-api
 
 ---
 
-## ☸️ Kubernetes (Optional)
+## ☸️ Kubernetes
 
-1. Install Minikube or Kind
-2. Deploy with:
-   ```bash
-   kubectl apply -f k8s/deployment.yaml
-   ```
+```bash
+kubectl apply -f k8s/deployment.yaml
+kubectl apply -f k8s/service.yaml
+```
 
 ---
 
-## 🔄 GitHub Actions CI/CD
+## 🔁 CLI App Usage (`CustomerCli`)
 
-GitHub Actions is set up under `.github/workflows/ci.yml`.  
-It builds, tests, and validates on every push to `main`.
+Interactive menu:
+
+```
+1. View all customers
+2. Add customer
+3. Delete customer
+4. Update customer
+5. Exit
+```
+
+Launch CLI manually:
+```bash
+dotnet run --project CustomerCli
+```
+
+---
+
+## 🔄 API Usage Examples (curl)
+
+### ▶️ Create a Customer
+```bash
+curl -X POST http://localhost:8080/api/customers \
+-H "Content-Type: application/json" \
+-d '{ "firstName": "John", "lastName": "Doe", "email": "john@example.com", "phoneNumber": "1234567890" }'
+```
+
+### 📋 Get All Customers
+```bash
+curl http://localhost:8080/api/customers
+```
+
+### 🔍 Get One Customer
+```bash
+curl http://localhost:8080/api/customers/{id}
+```
+
+### ✏️ Update Customer
+```bash
+curl -X PUT http://localhost:8080/api/customers/{id} \
+-H "Content-Type: application/json" \
+-d '{ "id": "{id}", "firstName": "Jane", "lastName": "Smith", "email": "jane@example.com", "phoneNumber": "9999999999" }'
+```
+
+### ❌ Delete Customer
+```bash
+curl -X DELETE http://localhost:8080/api/customers/{id}
+```
 
 ---
 
@@ -113,16 +126,15 @@ It builds, tests, and validates on every push to `main`.
 
 - ASP.NET Core 8 Web API
 - Entity Framework Core
-- SQL Server
 - xUnit Testing
-- Serilog for Logging
+- Serilog Logging (JSON)
 - Swagger (OpenAPI)
-- Docker
-- Kubernetes (Minikube-compatible)
+- Docker & Kubernetes
 - GitHub Actions CI/CD
+- Console Client via HttpClient
 
 ---
 
 ## 📬 Contact
 
-If you need help running the solution or deploying it, feel free to raise an issue or send a message.
+For questions or contributions, please open an issue or PR.
