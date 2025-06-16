@@ -65,12 +65,12 @@ CustomerApp/
    ```
 4. Also verify in `launchSettings.json`:
    ```json
-   "applicationUrl": "http://localhost:5000"
+   "applicationUrl": "http://localhost:8080"
    ```
 
 ### 🔹 Step 4: Run the Solution
 - Press **F5** or click **Start**
-- API will start on `http://localhost:5000`
+- API will start on `http://localhost:8080`
 - Swagger opens automatically in browser
 - CLI output appears in Console
 
