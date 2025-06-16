@@ -113,7 +113,7 @@ It builds, tests, and validates on every push to `main`.
 
 - ASP.NET Core 8 Web API
 - Entity Framework Core
-- SQLite or SQL Server
+- SQL Server
 - xUnit Testing
 - Serilog for Logging
 - Swagger (OpenAPI)
