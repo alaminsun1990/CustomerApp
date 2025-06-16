@@ -61,7 +61,7 @@ CustomerApp/
 2. Go to the **Debug** tab
 3. Ensure **App URL** is set to:
    ```
-   http://localhost:5000
+   http://localhost:8080
    ```
 4. Also verify in `launchSettings.json`:
    ```json
