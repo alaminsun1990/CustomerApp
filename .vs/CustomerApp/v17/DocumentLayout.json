@@ -1,0 +1,282 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\CustomerApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9B28F0-6251-4551-BC0A-8B1B4CDF38F7}|CustomerApi.Tests\\CustomerApi.Tests.csproj|d:\\project\\customerapp\\customerapi.tests\\customerapitests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9B28F0-6251-4551-BC0A-8B1B4CDF38F7}|CustomerApi.Tests\\CustomerApi.Tests.csproj|solutionrelative:customerapi.tests\\customerapitests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61A4099-C575-4331-ACBC-653E10A52D94}|CustomerCli\\CustomerCli.csproj|d:\\project\\customerapp\\customercli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61A4099-C575-4331-ACBC-653E10A52D94}|CustomerCli\\CustomerCli.csproj|solutionrelative:customercli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|d:\\project\\customerapp\\customerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|solutionrelative:customerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|d:\\project\\customerapp\\customerapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|solutionrelative:customerapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|d:\\project\\customerapp\\customerapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|solutionrelative:customerapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9B28F0-6251-4551-BC0A-8B1B4CDF38F7}|CustomerApi.Tests\\CustomerApi.Tests.csproj|d:\\project\\customerapp\\customerapi.tests\\customerapi.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CB9B28F0-6251-4551-BC0A-8B1B4CDF38F7}|CustomerApi.Tests\\CustomerApi.Tests.csproj|solutionrelative:customerapi.tests\\customerapi.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|d:\\project\\customerapp\\customerapi\\customerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|solutionrelative:customerapi\\customerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|d:\\project\\customerapp\\customerapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|solutionrelative:customerapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC1AE0C-B2CC-48D7-A1E0-80D3D7976744}|Solution Items{FBC1AE0C-B2CC-48D7-A1E0-80D3D7976744}|D:\\Project\\CustomerApp\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{FBC1AE0C-B2CC-48D7-A1E0-80D3D7976744}|Solution Items{FBC1AE0C-B2CC-48D7-A1E0-80D3D7976744}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|d:\\project\\customerapp\\customerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|solutionrelative:customerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|d:\\project\\customerapp\\customerapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|solutionrelative:customerapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|d:\\project\\customerapp\\customerapi\\customerapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|solutionrelative:customerapi\\customerapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|d:\\project\\customerapp\\customerapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|solutionrelative:customerapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62124055-367D-401F-8E44-A45EDF26B9E8}|workflows{62124055-367D-401F-8E44-A45EDF26B9E8}|D:\\Project\\CustomerApp\\ci.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{62124055-367D-401F-8E44-A45EDF26B9E8}|workflows{62124055-367D-401F-8E44-A45EDF26B9E8}|solutionrelative:ci.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA9B6AD5-E567-4A6D-A906-5914D726059E}|k8s{CA9B6AD5-E567-4A6D-A906-5914D726059E}|D:\\Project\\CustomerApp\\deployment.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CA9B6AD5-E567-4A6D-A906-5914D726059E}|k8s{CA9B6AD5-E567-4A6D-A906-5914D726059E}|solutionrelative:deployment.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|d:\\project\\customerapp\\customerapi\\migrations\\20250614144422_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3E8D7EA-6AFB-4002-96B6-B969317F889F}|CustomerApi\\CustomerApi.csproj|solutionrelative:customerapi\\migrations\\20250614144422_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Project\\CustomerApp\\CustomerApi\\Dockerfile",
+              "RelativeDocumentMoniker": "CustomerApi\\Dockerfile",
+              "ToolTip": "D:\\Project\\CustomerApp\\CustomerApi\\Dockerfile",
+              "RelativeToolTip": "CustomerApi\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-15T15:21:31.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerApi.Tests.csproj",
+              "DocumentMoniker": "D:\\Project\\CustomerApp\\CustomerApi.Tests\\CustomerApi.Tests.csproj",
+              "RelativeDocumentMoniker": "CustomerApi.Tests\\CustomerApi.Tests.csproj",
+              "ToolTip": "D:\\Project\\CustomerApp\\CustomerApi.Tests\\CustomerApi.Tests.csproj",
+              "RelativeToolTip": "CustomerApi.Tests\\CustomerApi.Tests.csproj",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-14T21:25:48.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\CustomerApp\\CustomerApi\\Program.cs",
+              "RelativeDocumentMoniker": "CustomerApi\\Program.cs",
+              "ToolTip": "D:\\Project\\CustomerApp\\CustomerApi\\Program.cs",
+              "RelativeToolTip": "CustomerApi\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T14:29:05.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "deployment.yaml",
+              "DocumentMoniker": "D:\\Project\\CustomerApp\\deployment.yaml",
+              "RelativeDocumentMoniker": "deployment.yaml",
+              "ToolTip": "D:\\Project\\CustomerApp\\deployment.yaml",
+              "RelativeToolTip": "deployment.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-06-14T16:00:55.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\CustomerApp\\CustomerCli\\Program.cs",
+              "RelativeDocumentMoniker": "CustomerCli\\Program.cs",
+              "ToolTip": "D:\\Project\\CustomerApp\\CustomerCli\\Program.cs",
+              "RelativeToolTip": "CustomerCli\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T15:40:51.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerApiTests.cs",
+              "DocumentMoniker": "D:\\Project\\CustomerApp\\CustomerApi.Tests\\CustomerApiTests.cs",
+              "RelativeDocumentMoniker": "CustomerApi.Tests\\CustomerApiTests.cs",
+              "ToolTip": "D:\\Project\\CustomerApp\\CustomerApi.Tests\\CustomerApiTests.cs",
+              "RelativeToolTip": "CustomerApi.Tests\\CustomerApiTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T20:28:22.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Project\\CustomerApp\\CustomerApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CustomerApi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Project\\CustomerApp\\CustomerApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CustomerApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-15T15:32:05.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerApi.csproj",
+              "DocumentMoniker": "D:\\Project\\CustomerApp\\CustomerApi\\CustomerApi.csproj",
+              "RelativeDocumentMoniker": "CustomerApi\\CustomerApi.csproj",
+              "ToolTip": "D:\\Project\\CustomerApp\\CustomerApi\\CustomerApi.csproj",
+              "RelativeToolTip": "CustomerApi\\CustomerApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-14T23:15:55.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\Project\\CustomerApp\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\Project\\CustomerApp\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-06-14T16:05:56.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\Project\\CustomerApp\\CustomerApi\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "CustomerApi\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\Project\\CustomerApp\\CustomerApi\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "CustomerApi\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T14:27:50.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ci.yml",
+              "DocumentMoniker": "D:\\Project\\CustomerApp\\ci.yml",
+              "RelativeDocumentMoniker": "ci.yml",
+              "ToolTip": "D:\\Project\\CustomerApp\\ci.yml",
+              "RelativeToolTip": "ci.yml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-06-14T16:03:23.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250614144422_Init.cs",
+              "DocumentMoniker": "D:\\Project\\CustomerApp\\CustomerApi\\Migrations\\20250614144422_Init.cs",
+              "RelativeDocumentMoniker": "CustomerApi\\Migrations\\20250614144422_Init.cs",
+              "ToolTip": "D:\\Project\\CustomerApp\\CustomerApi\\Migrations\\20250614144422_Init.cs",
+              "RelativeToolTip": "CustomerApi\\Migrations\\20250614144422_Init.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T14:44:23.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Project\\CustomerApp\\CustomerApi\\appsettings.json",
+              "RelativeDocumentMoniker": "CustomerApi\\appsettings.json",
+              "ToolTip": "D:\\Project\\CustomerApp\\CustomerApi\\appsettings.json",
+              "RelativeToolTip": "CustomerApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-14T14:38:47.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Project\\CustomerApp\\CustomerApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CustomerApi\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Project\\CustomerApp\\CustomerApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "CustomerApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA+wAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T14:35:58.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerApi.http",
+              "DocumentMoniker": "D:\\Project\\CustomerApp\\CustomerApi\\CustomerApi.http",
+              "RelativeDocumentMoniker": "CustomerApi\\CustomerApi.http",
+              "ToolTip": "D:\\Project\\CustomerApp\\CustomerApi\\CustomerApi.http",
+              "RelativeToolTip": "CustomerApi\\CustomerApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-14T14:30:52.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Project\\CustomerApp\\CustomerApi\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "CustomerApi\\Models\\Customer.cs",
+              "ToolTip": "D:\\Project\\CustomerApp\\CustomerApi\\Models\\Customer.cs",
+              "RelativeToolTip": "CustomerApi\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T14:30:10.854Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
