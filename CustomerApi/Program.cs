@@ -7,8 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Logging
 Log.Logger = new LoggerConfiguration()
-    .WriteTo.Console()
+    .Enrich.FromLogContext()
+    .WriteTo.Console(new Serilog.Formatting.Json.JsonFormatter())
     .CreateLogger();
+
 builder.Host.UseSerilog();
 
 // Add services

@@ -93,4 +93,41 @@ public class CustomerApiTests : IClassFixture<WebApplicationFactory<Program>>
         var getResponse = await _client.GetAsync($"/api/customers/{createdCustomer.Id}");
         Assert.Equal(HttpStatusCode.NotFound, getResponse.StatusCode);
     }
+
+    [Fact]
+    public async Task GetCustomer_WithInvalidId_ReturnsNotFound()
+    {
+        var invalidId = Guid.NewGuid();
+        var response = await _client.GetAsync($"/api/customers/{invalidId}");
+        Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
+    }
+
+    [Fact]
+    public async Task PostCustomer_WithMissingFields_ReturnsBadRequest()
+    {
+        var incompleteCustomer = new Customer
+        {
+            FirstName = "", // Required but empty
+            Email = "test@test.com"
+        };
+
+        var response = await _client.PostAsJsonAsync("/api/customers", incompleteCustomer);
+        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+    }
+
+    [Fact]
+    public async Task PostCustomer_WithDuplicateEmail_ReturnsError()
+    {
+        var email = $"duplicate{Guid.NewGuid()}@test.com";
+
+        var customer1 = new Customer { FirstName = "Test", LastName = "One", Email = email, PhoneNumber = "123" };
+        var customer2 = new Customer { FirstName = "Test", LastName = "Two", Email = email, PhoneNumber = "456" };
+
+        await _client.PostAsJsonAsync("/api/customers", customer1);
+        var response = await _client.PostAsJsonAsync("/api/customers", customer2);
+
+        Assert.True(response.StatusCode == HttpStatusCode.Conflict || (int)response.StatusCode >= 400);
+    }
+
+
 }
